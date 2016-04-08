@@ -23,8 +23,8 @@ Pros: Easier than vertical because you don’t have to switch between layers dur
 
 Cons: You can end up with incompatible layers, especially between frontend-backend.
 
-**Mixed**: First rearchitecture data and business layers horizontally, then Web API and Frontend vertically.
+**Mixed**: First rearchitecture data and core layers horizontally, then Web API and Frontend vertically.
 
-Pros: Data and business layers will enjoy the benefits of horizontal slicing and there won’t be incompatibilities between frontend and Web API, and the possibility of incompatibility between Web API and lower backend layers is low.
+Pros: Data and core layers will enjoy the benefits of horizontal slicing and there won’t be incompatibilities between frontend and Web API, and the possibility of incompatibility between Web API and lower backend layers is low.
 
 Cons: The first horizontal phase will take long, so you won’t see a full top to bottom result as early as vertical slicing.

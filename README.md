@@ -1,3 +1,6 @@
+Note:
+There is no unit test in app, data and web modules because none of those modules has business logic in them, all the logic will be in core module so it's the only one requires unit tests. Other modules will be tested by automated integration/end-to-end tests.
+
 WHY:
 
 Current code doesn’t have good separation of layers and components are tightly coupled, so it’s hard to understand the code, hard to implement new features and it prevents different people/teams to work independently.

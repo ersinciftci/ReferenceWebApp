@@ -11,19 +11,19 @@ HOW:
 
 We can do it in 3 ways and each has it’s own pros/cons.
 
-Vertical: Take one page or a part in a page and rearchitecture it from top to bottom.
+**Vertical**: Take one page or a part in a page and rearchitecture it from top to bottom.
 
 Pros: You can see your progress after each slice is done, so you don’t have to wait for a year to see if it works.
 
 Cons: Requires backend and frontend teams to work on the same thing at the same time, but might not be possible.
 
-Horizontal: Start rearchitecturing from one layer and finish that layer before rearchitecturing the next one.
+**Horizontal**: Start rearchitecturing from one layer and finish that layer before rearchitecturing the next one.
 
 Pros: Easier than vertical because you don’t have to switch between layers during the rearchitecture.
 
 Cons: You can end up with incompatible layers, especially between frontend-backend.
 
-Mixed: First rearchitecture data and business layers horizontally, then Web API and Frontend vertically.
+**Mixed**: First rearchitecture data and business layers horizontally, then Web API and Frontend vertically.
 
 Pros: Data and business layers will enjoy the benefits of horizontal slicing and there won’t be incompatibilities between frontend and Web API, and the possibility of incompatibility between Web API and lower backend layers is low.
 

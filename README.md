@@ -9,7 +9,7 @@ The project has shell/perl/python scripts for importing data but it’s hard to 
 
 HOW:
 
-We can do it in 3 ways and each has it’s own pros/cons.
+We can do it in 3 ways and each has it’s own pros/cons:
 
 **Vertical**: Take one page or a part in a page and rearchitecture it from top to bottom.
 
